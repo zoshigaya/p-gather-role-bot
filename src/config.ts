@@ -17,6 +17,6 @@ export const config = {
     token: requireEnv("MISSKEY_TOKEN"),
     roleId: requireEnv("ROLE_ID"),
     botUserId: process.env.BOT_USER_ID ?? "",
-    joinText: requireEnv("JOIN_TEXT"),
-    leaveText: requireEnv("LEAVE_TEXT"),
+    joinText: "Pギャザにサークル参加します",
+    leaveText: "参加キャンセル",
 };
